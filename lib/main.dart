@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp(debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: FutureBuilder(
           future: _getData(),
